@@ -8,6 +8,9 @@ public class Meta {
     private double valorPoupado;
     
     //construtor
+    public Meta() {
+        
+    }
     public Meta (double valorPoupado, String objetivo, double valorAlvo){
 
         this.valorPoupado = valorPoupado;
