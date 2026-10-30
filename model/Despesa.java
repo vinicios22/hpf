@@ -9,6 +9,9 @@ public class Despesa {
     
    
     //construtor
+    public Despesa() {
+        
+    }
     public Despesa (String descricao, double valor, String status) {
 
         this.descricao = descricao;
@@ -30,7 +33,7 @@ public class Despesa {
         return this.valor;
     }
      
-    public void setvalorAlvo(double valor) {
+    public void setValorAlvo(double valor) {
         this.valor = valor;
     }
      
