@@ -9,7 +9,11 @@ public class Conta {
     private double limite;
     
    
-    //construtor
+     //construtor
+    public Conta() {
+        
+    }
+
     public Conta (int numero, String cliente, double saldo, double limite){
 
         this.numero = numero;
