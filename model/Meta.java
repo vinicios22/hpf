@@ -28,7 +28,7 @@ public class Meta {
         this.objetivo = objetivo;
     }
      
-    public double getvalorAlvo(){
+    public double getValorAlvo(){
         return this.valorAlvo;
     }
      
@@ -36,11 +36,11 @@ public class Meta {
         this.valorAlvo = valoralvo;
     }
      
-    public double getvalorPoupado(){
+    public double getValorPoupado(){
         return this.valorPoupado;
     }
     
-    public void setvalorPoupado(double valorpoupado) {
+    public void setValorPoupado(double valorPoupado) {
         this.valorPoupado = valorpoupado;
     }
     
