@@ -7,7 +7,7 @@ public class Receita {
     private double valor;
     
     //construtor 
-    public Conta() {
+    public Receita() {
         
     }
 
