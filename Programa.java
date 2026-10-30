@@ -62,7 +62,7 @@ public class Programa {
             if (conta_1.getSaldo() >= 200) {
                 
                 conta_1.setSaldo(conta_1.getSaldo() - 200);
-                meta_1.setvalorPoupado(meta_1.getvalorPoupado() + 200);
+                meta_1.setvalorPoupado(meta_1.getValorPoupado() + 200);
                 System.out.println("Dinheiro guardado na meta!");
                 
             } else {
@@ -81,7 +81,7 @@ public class Programa {
         System.out.println("Conta: " + conta_1.getNumero() + " | Cliente: " + conta_1.getCliente()); 
         System.out.println("Saldo final: " + conta_1.getSaldo() + " | Limite: " + conta_1.getLimite());            
         System.out.println("Situação do (Agiota): " + despesa_1.getStatus()); 
-        System.out.println("Meta (" + meta_1.getObjetivo() + "): R$" + meta_1.getvalorPoupado() + " poupados de R$" + meta_1.getvalorAlvo()); 
+        System.out.println("Meta (" + meta_1.getObjetivo() + "): R$" + meta_1.getvalorPoupado() + " poupados de R$" + meta_1.getValorAlvo()); 
        
    
 
@@ -91,3 +91,4 @@ public class Programa {
  } 
 
 }
+
