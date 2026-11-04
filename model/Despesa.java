@@ -33,7 +33,7 @@ public class Despesa {
         return this.valor;
     }
      
-    public void setValorAlvo(double valor) {
+    public void setvalorAlvo(double valor) {
         this.valor = valor;
     }
      
